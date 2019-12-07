@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Unide blog</title>
+  </head>
+  <body>
+  
+<a href="https://twitter.com/mjvesa">Follow @mjvesa for updates</a>
+
+<h1>Unide 0.2.0 and the road towards 1.0.0</h1>
+
+<p>The version 0.2.0 of Unide marks a return to old goals in its development.
+There was a brief moment where it was considered that Unide would produce plain
+Java projects and nothing more, but from now on Unide will be universal again
+and produce projects and views for many different frameworks.</p>
+
+<h2>Changes in 0.2.0</h2>
+
+<p>The esoteric nature of the internal model of Unide has been addressed
+with the introduction of an XML editor.  It allows editing the model directly
+in XML, a format that should be more familiar to designers. Performance and 
+layout issues with the editor will be addressed in later versions.</p>
+
+<p>Sketch Mode no longer replaces the entire design, but appends the sketched
+design into the end of the existing one. This allows one to draw a small
+piece of the view in SM and then move it to the correct place.</p>
+
+<p>Setting the project format now takes place in the settings page.</p>
+
+<h2>Plans for 0.3.0</h2>
+
+<p>Unide is still very much taking its first steps and trying to find its place
+in the world. One new place it might find itself in is the Visual Studio Code
+editor. With upcoming additions such as generation of event listeners,
+iteration and conditional rendering, it becomes pertinent to have proper
+support for editing the code that lives beside the design. Having that
+in Unide itself would introduce many complications, so it makes more sense to
+embed into a well known text editing platform and use its features instead.</p>
+
+<p>Having Unide as a VSCode extension does not mean that the standalone and web
+versions would be gone, but rather that VSCode will be an additional platform
+to use it on.</p>
+
+<p>Vaadin 15 will support UI logic on the client side. An exporter for that
+will be added and it will be kept up to date as Vaadin 15 progresses.</p>
+
+<h2>Future plans</h2>
+
+<p>Sketch Mode will eventually allow editing the existing design. It might also
+provide a more realistic preview capability which shows what the components
+look like in the actual design.</p>
+
+<p>Figma is a popular design tool among designers (rather than developers). There
+is a plugin for Figma called &ldquo;Designs to Layouts&rdquo; which allows exprorting
+designs from Figma. Those exported designs are already editable in Unide.
+The features of the plugin will eventually be integrated into Unide,
+allowing one to connect to Figma and import designs from there directly.</p>
+
+<p>Exporting full projects for frameworks like Angular, Vue, Preact, Svelte and
+others is a more distant, but realistic goal. Also users should be able to
+add further Web Components in addition to the built-in Vaadin Components.</p>
+
+<p>Last not but least, Unide will receive much needed refactorings, tests and
+many other things that will increase its robustness.</p>
+  
+  </body>
+</html>
